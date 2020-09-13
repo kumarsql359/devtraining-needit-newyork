@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Practice" max_length="40" name="x_58872_needit_practice" type="collection">
+        <element label="Created By" max_length="20" name="created_by" type="string"/>
+        <element label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <element label="ID" max_length="20" name="id" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
